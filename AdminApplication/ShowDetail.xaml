@@ -1,0 +1,89 @@
+﻿<Window x:Class="AdminApplication.UpdateDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdminApplication"
+        mc:Ignorable="d"
+        Title="UpdateDetail" Height="710" Width="958">
+    <DockPanel HorizontalAlignment="Stretch"  Height="auto" LastChildFill="False" VerticalAlignment="Stretch" Width="auto" Margin="0,0,0,0">
+        <StackPanel Height="300" Width="auto"  DockPanel.Dock="Top" VerticalAlignment="Top" Orientation="Horizontal">
+            <Image 
+                Margin="30"
+                Source="C:\Users\NguyenSonDuong\Documents\WinformProject\MemoryChange\AdminApplication\AdminApplication\bin\Debug\a.png" 
+                Height="257"
+                />
+            <StackPanel Margin="30,30,30,0">
+                <Label
+                    FontSize="15"
+                    FontWeight="Bold"
+                    Content="THÔNG TIN CƠ BẢN VỀ SẢN PHẨM" Foreground="#FFDC2C2C"/>
+                <StackPanel Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Tên sản phẩm: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Iphone 8"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Công ty: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Nơi sản xuất: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Số lượng còn lại: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Giá: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Ngày sản xuất: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Hạn sử dụng: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Ngày cập nhật: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label 
+                        Content="Cập nhật gần nhất: "
+                        FontWeight="Bold"/>
+                        <Label 
+                        Content="Apple"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+</Window>

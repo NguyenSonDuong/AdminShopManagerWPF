@@ -1,0 +1,31 @@
+﻿<Window x:Class="AdminApplication.UpdateImages"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdminApplication"
+        mc:Ignorable="d"
+        Title="UpdateImages" Height="274.576" Width="489.153">
+    <StackPanel Margin="0,0,0,1">
+        <Label x:Name="label" Content="Lựa chọn ảnh" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20"/>
+        <Label Content="Danh mục ảnh đã chọn:" Width="250"
+               Padding="0"></Label>
+        <StackPanel Orientation="Horizontal" Width="250">
+            <TextBox HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="tbFiles" Margin="0,0,0,0" Width="200" Padding="7">
+            </TextBox>
+            <Button Width="50" Content="---"
+                    Background="#FFCD4A00" 
+                    Foreground="White" 
+                    BorderBrush="#FF3A9C98" Click="Button_Click"/>
+        </StackPanel>
+        <Button Content="Thêm ảnh" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Style="{DynamicResource btnHideHightLight}"
+                    Margin="0,10,0,0"
+                    Padding="7"
+                    Width="250" 
+                    Background="#FF3A9C98" 
+                    Foreground="White" 
+                    BorderBrush="#FF3A9C98" Click="Button_Click_1"></Button>
+
+    </StackPanel>
+</Window>

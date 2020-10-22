@@ -1,0 +1,74 @@
+﻿<Window x:Class="AdminApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdminApplication"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Đăng nhập" Height="359" Width="556" >
+    <Grid Margin="0,0,0,-2">
+        <StackPanel
+            Margin="0,30,0,50">
+            <Label 
+                x:Name="label" 
+                Content="Đăng nhập" 
+                HorizontalAlignment="Center" 
+                Margin="0,25,0,0" 
+                FontWeight="Bold"
+                FontSize="20"
+                VerticalAlignment="Top"/>
+            <Label
+                Content="Tên đăng nhập:"
+                Width="300"
+                Padding="0"
+                />
+            <TextBox
+                x:Name="tbTenDN"
+                HorizontalAlignment="Center"
+                Margin="0,0,0,0"  
+                Padding="5"
+                Width="300"
+                VerticalAlignment="Top" 
+                TextAlignment="Center" SelectionBrush="#FFF14A19"/>
+            <Label
+                Content="Mật khẩu:"
+                Width="300"
+                Margin="0,10,0,0"
+                Padding="0"
+                />
+            <PasswordBox
+                x:Name="tbPass"
+                HorizontalAlignment="Center"
+                  
+                Padding="5"
+                Width="300"
+                VerticalAlignment="Top"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                SelectionBrush="#FFF14A19">
+            </PasswordBox>
+            <Button
+                x:Name="btnDangNhap"
+                Content="ĐĂNG NHẬP"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Center"
+                Padding="7"
+                Width="300"
+                IsDefault="True"
+                VerticalAlignment="Top"
+                Margin="0,10,0,0"
+                Click="btnDangNhap_Click"
+                Style="{StaticResource btnHideHightLight}"
+                Foreground="White" 
+                Background="#FF3A9C98" FontWeight="Bold" MouseEnter="btnDangNhap_MouseEnter">
+            </Button>
+        </StackPanel>
+        <Label
+            Content="@Create: NDAC Company"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Center"/>
+    </Grid>
+
+</Window>
